@@ -1,0 +1,109 @@
+// add any global 🌎 styles here
+
+//import Lato font
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+//styling for the insights component
+.insights-container {
+  background-color: #F0F4FA;
+  border-radius: 0.5rem;
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+// display styling for sections
+.overdue-section,
+.due-section,
+.average-section,
+.upcoming-section,
+.payout-section,
+.destination-section,
+.delivery-section,
+.status-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 10%;
+}
+
+// exclusive styling for all titles
+.overdue-title,
+.due-title,
+.average-title,
+.upcoming-title,
+.payout-title,
+.destination-title,
+.delivery-title,
+.status-title {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #4D6575;
+  font-size: 0.875rem;
+}
+
+// general styling for text classes
+.overdue-text span,
+.due-text span,
+.average-text span,
+.upcoming-text,
+.destination-text,
+.delivery-text,
+.status-text {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #1C252C;
+  font-size: 1.1875rem;
+  margin: 0;
+}
+
+// exclusive styling for status-text
+.status-text {
+  color: #18864B;
+  font-weight: bold;
+}
+
+// exclusive styling for payout-text
+.payout-text span {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #1C252C;
+  font-size: 2.0625rem;
+}
+
+.overdue-section .overdue-text,
+.due-section .due-text,
+.average-section .average-text,
+.payout-section .payout-text {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #1C252C;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+// exclusive styling for upcoming-text
+.upcoming-text {
+  margin: 0;
+}
+
+// exclusive styling for third lines of each sections
+.overdue-update,
+.payout-update,
+.card-number {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: #1C252C;
+  margin-top: 3%;
+}
+
+
+
