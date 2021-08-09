@@ -1,4 +1,5 @@
 # Engineering Challenge
+This is a challenge I did a few weeks ago using TypeScript. 
 
 ## Scenario
 Imagine that the design team has recognized two places that use a similar UI component to provide **insights** to our users. We want to formalize this by implementing a reusable component in our design library. (Think of this component as a Lego block that can be used in multiple places.) You have been provided with the Figma file outlining the design details of this component.
